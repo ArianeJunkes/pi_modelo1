@@ -16,26 +16,29 @@ Links do projeto:
     
 A empresa escolhida foi o Skoob, existente desde 2009, criado pelo brasileiro Lindenberg Moreira, associado com a Viviane Lordello profissional de Marketing. Contando com mais de 8.2 milhões de usuários cadastrados no site. Através de cadastro, é possível listar o que você está lendo, o que já leu, o que pretende ler, o que está relendo e quais leituras foram abandonadas, formando assim uma "estante" virtual. O sistema tem um "paginômetro", que soma as páginas dos livros marcados como já lidos, além de uma média de páginas. Títulos ainda ausentes no banco de dados podem ser adicionados pelos próprios usuários, que podem compartilhar suas opiniões sobre as obras através de avaliações com estrelas, de uma a cinco, e resenhas. Possui também a opção de participar de grupos com temas diversos, desde Livros Viajantes (um usuário se dispõe a emprestar um livro de acordo com a lista de participantes definida) à Colecionadores de Marcadores de Texto. Atualmente o Skoob disponibilizou gratuitamente App para iOS e Android.
 
+
+
 ## Problemas Observados 
 
 * **Falta de localização de onde esses livros estão fisicamente;**
-* **O empréstido de livros com no mínimo X de participantes de um grupo;**
+* **O empréstimo de livros com no mínimo X de participantes de um grupo;**
 * **A estilização do site é muito antiga e pré histórica;**
-* **Falta de avalização por parte dos usuários quando se faz o empréstimo de um livro.**
+
+Como os empréstimos são feitos apenas em grupos, não há localização de onde se encontra meus livros.
+Nossos empréstimos não funcionarão apenas tendo uma lista definida de participantes em nosso grupos disponibilizados e também teremos nossas exigências em relação aos empréstimos.
+A estilização do site é muito antiga, não chamando atenção para novos usuários. 
+
 
 
 
 # Descrição da proposta
 
-Diante do exposto nosso primeiro problema vizualido é em relação a localização de nossos livros, procuramos ser além de uma "estante" virtual, nosso foco com esse projeto é uma biblioteca de livros de maneira virtual, possibilitando o armazenamento dos seus livros físicos e virtuais, podendo registrar em que locais eles estão armazenados físicamente e possibilitar a opção de assinalar que o livro específico foi emprestado para um usúario, sabendo aonde estão localizados corretamente e o tempo de empréstimo. Nossos empréstimos não funcionarão apenas tendo uma lista definida de participantes em nosso grupos disponibilizados e também teremos nossas exigências em relação aos empréstimos. 
+O acesso total do site será feito pelos administradores, enquanto os usuários terão um acesso um pouco restritivo ao site. Para o cadastro de usuários serão solicitados dados básicos como login, email e senha possibilitando assim a criação de sua conta no site. Os usuários terão acesso para o cadastro de livros que será feito por categorias que já estão armazenadas em nosso banco de dados e pelo ISBN do livro, caso o ISBN cadastrado já exista não será permitido novamente o cadastro desse livro. Não haverá um cadastro das categorias pelos usuários, nosso sistema já fornecerá as categorias existentes.
 
-Nossos usuários terão avaliações também para maior confiança e cuidado. Ao se cadastrar haverão perguntas básicas, como por exemplo "onde você passa mais tempo lendo" ou "qual lugar você se sente mais confotável lendo", para termos um controle de localização.
-Com nossa biblioteca virtual todos os usuários terão acessos ao site e a listar novos livros em sua bibloteca, pedidos de empréstimos e avaliação dos empréstimos.
+O nosso sistema de empréstimo será feito somente por livros físicos, em que quando um usuário emprestar seu livro, ele poderá cadastrar que foi realizado o empréstimo listando categorias, nome do livro, tempo de empréstimo e email do usuário a quem foi emprestado. O controle de devolução é por conta do usuário. 
 
 
-**Quem tem acesso?
-Como será feito o cadastro de usuários?
-Cadadastro de livros ? Categorias?
-Como será feito o empréstimo / devolução.
 Relatórios? 
 **
+
+# Regras de Negócio
