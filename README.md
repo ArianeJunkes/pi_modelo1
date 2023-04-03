@@ -21,11 +21,9 @@ A empresa escolhida foi o Skoob, existente desde 2009, criado pelo brasileiro Li
 ## Problemas Observados 
 
 * **Falta de localização de onde esses livros estão fisicamente;**
-* **O empréstimo de livros com no mínimo X de participantes de um grupo;**
 * **A estilização do site é muito antiga e pré histórica;**
 
-Como os empréstimos são feitos apenas em grupos, não há localização de onde se encontra meus livros.
-Nossos empréstimos não funcionarão apenas tendo uma lista definida de participantes em nosso grupos disponibilizados e também teremos nossas exigências em relação aos empréstimos.
+Como os empréstimos são feitos apenas em grupos, não há localização de onde se encontra meus livros emprestados e não emprestados.
 A estilização do site é muito antiga, não chamando atenção para novos usuários. 
 
 
@@ -37,8 +35,23 @@ O acesso total do site será feito pelos administradores, enquanto os usuários 
 
 O nosso sistema de empréstimo será feito somente por livros físicos, em que quando um usuário emprestar seu livro, ele poderá cadastrar que foi realizado o empréstimo listando categorias, nome do livro, tempo de empréstimo e email do usuário a quem foi emprestado. O controle de devolução é por conta do usuário. 
 
+Teremos relatórios gerados pelo sistema de livros lidos por ano, livros mais emprestados e menos emprestados, e relatórios de opiniões.
 
-Relatórios? 
-**
 
 # Regras de Negócio
+
+RN001- Cadastro de usuários: Os usuários precisam fazer cadastro para realizar empréstimos.
+
+RN002- Realizar empréstimo: Para realizar o empréstimo, apenas usuários cadastro e nenhum emprétimos em aberto.
+
+RN003- Listagem de empréstimo: O usuário precisa listar o livro que irá emprestar.
+
+RN004- Registro de empréstimo: O administrador deve possuir acesso ao registro de empréstimo.
+
+RN005- Devolução de empréstimo: O usuário deve registrar a devolução.
+
+RN006- Cadastro de livros: Para usuário inserir um novo livro, precisa apenas do nome e autor, pois categorias já estão armazenadas. 
+
+RN007- Cadastro de feedback: O usuário pode registrar um feedback sobre os livros que ele emprestou.
+
+RN008- Registro de relatório: O administrador deve possuir acesso ao regristo de relatório.
