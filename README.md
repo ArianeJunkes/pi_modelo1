@@ -55,3 +55,24 @@ RN006- Cadastro de livros: Para usuário inserir um novo livro, precisa apenas d
 RN007- Cadastro de feedback: O usuário pode registrar um feedback sobre os livros que ele emprestou.
 
 RN008- Registro de relatório: O administrador deve possuir acesso ao regristo de relatório.
+
+# Requisitos Funcionais 
+
+Entradas
+
+R.F.01 - Cadastro de usuário: Para cadastro de usuário precisa de dados como email e a criação de uma senha. Usuário: todos os níveis de usuário.
+
+
+Processos
+
+R.F.XX - Autenticação de usuário: tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página principal de seu perfil de acesso.
+Dados necessários: email, senha, nível de permissão.
+Usuários: todos os níveis de usuário.
+
+R.F.xx - Empréstimos:
+
+
+Saídas
+
+R.F.XX - 
+R.F.XX - Registro de relatório:
