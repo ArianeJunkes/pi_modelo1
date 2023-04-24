@@ -62,17 +62,27 @@ Entradas
 
 R.F.01 - Cadastro de usuário: Para cadastro de usuário precisa de dados como email e a criação de uma senha. Usuário: todos os níveis de usuário.
 
+R.F.02 - Cadastro de livros: Para cadastro de livros precisa de dados como categoria, editora e autor. Usuário: todos os níveis de usuário.
+
+R.F.03 - Cadastro de feedback: Para cadastro de feedback precisa de dados como nome do livros, nome do usuário e comentário sobre o livro. Usuário: todos os níveis de usuário.
+
+R.F.04 - Registro de empréstimos: Para registrar um empréstimo de livro é necessário nome do usuário, nome do livro e data de pedido. Usuário: todos os níveis de usuário.
+
+R.F.05 - Devolução de empréstimo: Para registro de devolução de empréstimo é necessário nome de usuário, nome do livro e data da devolução. Usuário: todos os níveis de usuário.
 
 Processos
 
-R.F.XX - Autenticação de usuário: tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página principal de seu perfil de acesso.
+R.F.06 - Autenticação de usuário: tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página principal de seu perfil de acesso.
 Dados necessários: email, senha, nível de permissão.
 Usuários: todos os níveis de usuário.
 
-R.F.xx - Empréstimos:
+R.F.07 - Listagem de empréstimos: tem como propósito informar quantos livros o usuário tem emprestado. Usuário: todos os níveis de usuário. Usuário: todos os níveis de usuário.
 
 
 Saídas
 
-R.F.XX - 
-R.F.XX - Registro de relatório:
+
+R.F.08 - Registro de relatório: Para registro de relatório precisa de dados como sobre o que será o relatório exemplo: livros mais lidos, livros mais emprestados, etc... Usuário: apenas vizualização.
+
+# Requisitos Não Funcionais
+
