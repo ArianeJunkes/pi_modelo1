@@ -86,3 +86,16 @@ R.F.08 - Registro de relatório: Para registro de relatório precisa de dados co
 
 # Requisitos Não Funcionais
 
+R.N.F. 01- Forma de uso do software: O sistema por fazer parte de um ambiente interno, provavelmente será utilizado de acordo com as horas de trabalho da empresa, mas estará ativo 24 horas por dia em 7 dias por semana.
+
+R.N.F. 02- Autenticação: Para realizar o acesso ao sistema é necessário ter um usuário de autenticação criado pelo administrador, além da possibilidade de solicitar um envio de redefinição de senha.
+
+R.N.F. 03- Aviso de empréstimo: O sistema deve avisar o usuário que tem empréstimos em aberto.
+
+R.N.F. 04- Limitação de empréstimo: O sistema deve limitar um número de empréstimos para cada usuário.
+
+R.N.F 05- Devolução de empréstimo: O sistema deve avisar quando faltar 1(um) dia para devolução do livro emprestado.
+
+R.N.F. 06- Tecnologia Front-end: Para a exibição em front-end, o software utilizará o CSS3 e o HTML5, além das bibliotecas de Vue.
+
+R.N.F. 07- Tecnologia Back-end: O software será desenvolvido pela linguagem de programação Django.
