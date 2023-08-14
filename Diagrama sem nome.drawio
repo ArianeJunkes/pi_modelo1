@@ -1,98 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T12:22:33.737Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="5T1GZ5y4vsxT1yWcarZX" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T13:25:44.174Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="ztE2wjhOz_YOE050m0mE" version="21.6.8" type="github">
   <diagram name="Página-1" id="VRcsKb7h0SonIRb8UVA_">
-    <mxGraphModel dx="1133" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1360" dy="1964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-2" value="Usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="80" width="60" height="90" as="geometry" />
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-2" value="&lt;div&gt;Cliente&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="-30" width="60" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-6" value="Cadastrar Livros" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="364" y="95" width="100" height="60" as="geometry" />
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-6" value="Cadastrar Livros" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="414" y="-80" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.11;entryY=0.89;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="TDki_b5KOmt0Y0R4aDIz-6" source="TDki_b5KOmt0Y0R4aDIz-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="120" as="sourcePoint" />
+            <mxPoint x="160" y="100" as="sourcePoint" />
             <mxPoint x="364" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-11" value="Solicitar autorização para ver bibliotecas" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="364" y="170" width="100" height="60" as="geometry" />
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-11" value="&lt;div&gt;Registrar &lt;br&gt;&lt;/div&gt;&lt;div&gt;Status do Livro&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="510" y="-40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="200" as="sourcePoint" />
-            <mxPoint x="320" y="120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TDki_b5KOmt0Y0R4aDIz-11">
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="TDki_b5KOmt0Y0R4aDIz-11" edge="1" source="TDki_b5KOmt0Y0R4aDIz-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="199.71" as="sourcePoint" />
             <mxPoint x="360" y="199.71" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-17" value="Registrar empréstimos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="364" y="240" width="100" height="60" as="geometry" />
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-17" value="Registrar empréstimos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="600" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-18" value="Cadastrar Categorias" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="364" y="315" width="100" height="60" as="geometry" />
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-18" value="Cadastrar Categorias" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="600" y="210" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="345" as="sourcePoint" />
-            <mxPoint x="320" y="190" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TDki_b5KOmt0Y0R4aDIz-18">
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="TDki_b5KOmt0Y0R4aDIz-18" edge="1" source="TDki_b5KOmt0Y0R4aDIz-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="344.71000000000004" as="sourcePoint" />
             <mxPoint x="360" y="344.71000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="TDki_b5KOmt0Y0R4aDIz-17" source="TDki_b5KOmt0Y0R4aDIz-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="269.71000000000004" as="sourcePoint" />
-            <mxPoint x="364" y="270" as="targetPoint" />
+            <mxPoint x="160" y="120.15909287257001" as="sourcePoint" />
+            <mxPoint x="593" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-25" value="Favoritar Livros" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="364" y="390" width="100" height="60" as="geometry" />
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-25" value="Favoritar Livros" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="510" y="250" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-26" value="Cadastrar Feedback" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="364" y="465" width="100" height="60" as="geometry" />
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-26" value="Cadastrar Feedback" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="400" y="270" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="495" as="sourcePoint" />
-            <mxPoint x="320" y="340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TDki_b5KOmt0Y0R4aDIz-26">
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="TDki_b5KOmt0Y0R4aDIz-26" edge="1" source="TDki_b5KOmt0Y0R4aDIz-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="494.71000000000004" as="sourcePoint" />
             <mxPoint x="360" y="494.71000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.02;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="TDki_b5KOmt0Y0R4aDIz-25" source="TDki_b5KOmt0Y0R4aDIz-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="419.71000000000004" as="sourcePoint" />
             <mxPoint x="364" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-30" value="Administrar " style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="540" width="60" height="90" as="geometry" />
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-30" value="&lt;div&gt;Administrador&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="480" width="60" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-31" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-31" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="TDki_b5KOmt0Y0R4aDIz-32" source="TDki_b5KOmt0Y0R4aDIz-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="600" as="sourcePoint" />
             <mxPoint x="364" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-32" value="Possui acesso ao relatórios" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="364" y="570" width="100" height="60" as="geometry" />
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-32" value="Possui acesso ao relatórios" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="250" y="250" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TDki_b5KOmt0Y0R4aDIz-33" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.79;dx=37.17;notch=0;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="40" y="340" width="180" height="80" as="geometry" />
+        <mxCell id="TDki_b5KOmt0Y0R4aDIz-33" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.79;dx=37.17;notch=0;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="15" y="245" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qWzFOqt2p5cnxjZDoQtF-4" value="Gerencia relatórios" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="525" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWzFOqt2p5cnxjZDoQtF-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qWzFOqt2p5cnxjZDoQtF-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="550" as="sourcePoint" />
+            <mxPoint x="340" y="539.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWzFOqt2p5cnxjZDoQtF-6" value="Cadastro de conta" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWzFOqt2p5cnxjZDoQtF-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="TDki_b5KOmt0Y0R4aDIz-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="60" as="sourcePoint" />
+            <mxPoint x="320" y="-40" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWzFOqt2p5cnxjZDoQtF-8" value="Registrar devolução de empréstimos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWzFOqt2p5cnxjZDoQtF-9" value="Autenticação de conta" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWzFOqt2p5cnxjZDoQtF-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TDki_b5KOmt0Y0R4aDIz-2" target="qWzFOqt2p5cnxjZDoQtF-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="130" as="sourcePoint" />
+            <mxPoint x="603" y="60" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWzFOqt2p5cnxjZDoQtF-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TDki_b5KOmt0Y0R4aDIz-2" target="qWzFOqt2p5cnxjZDoQtF-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="130" as="sourcePoint" />
+            <mxPoint x="620" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWzFOqt2p5cnxjZDoQtF-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.89;entryY=0.89;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.89;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qWzFOqt2p5cnxjZDoQtF-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="627" y="360" as="sourcePoint" />
+            <mxPoint x="708" y="200.00000000000009" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="759" y="276.6" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWzFOqt2p5cnxjZDoQtF-13" value="Fazer login" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="360" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
